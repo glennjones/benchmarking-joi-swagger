@@ -1,0 +1,38 @@
+{
+  "name": "benchmark-joi-swagger",
+  "version": "0.0.1",
+  "author": "Glenn Jones",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/glennjones/benchmark-joi-swagger.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "benchmark",
+    "api",
+    "swagger",
+    "hapi",
+    "joi"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.0",
+    "blipp": "^2.3.0",
+    "boom": "^3.1.2",
+    "good": "^6.5.0",
+    "good-console": "^5.3.0",
+    "handlebars": "^4.0.5",
+    "hapi": "13.0.0",
+    "hapi-swagger": "glennjones/hapi-swagger",
+    "hoek": "^3.0.4",
+    "http-status": "^0.2.1",
+    "inert": "^3.2.0",
+    "joi": "8.0.5",
+    "js2xmlparser": "^1.0.0",
+    "microtime": "^2.0.0",
+    "vision": "^4.0.1"
+  }
+}
