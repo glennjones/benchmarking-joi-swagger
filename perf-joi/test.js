@@ -6,7 +6,7 @@ const Joi = require('joi');
 var suite = new Benchmark.Suite;
 
 // add tests
-suite.add('NoStringslabels', function () {
+suite.add('StringsNoLabels', function () {
         const schema = Joi.object({
             a: Joi.string(),
             b: Joi.string(),
@@ -15,7 +15,7 @@ suite.add('NoStringslabels', function () {
             e: Joi.string()
         });
     })
-    .add('NoArraysLabels', function () {
+    .add('ArraysNoLabels', function () {
         const schema = Joi.object({
             a: Joi.array().items({x: Joi.string()}),
             b: Joi.array().items({x: Joi.string()}),
