@@ -1,12 +1,12 @@
 'use strict';
 const Benchmark = require('benchmark');
 const Joi = require('joi');
-const Helper = require('../pref-swagger/utilities/helper.js');
-const RoutesSingle = require('../pref-swagger/utilities/routes-single.js');
-const RoutesStandard = require('../pref-swagger/utilities/routes-standard-test.js');
-const RoutesComplex = require('../pref-swagger/utilities/routes-complex.js');
-const RoutesComplexInline = require('../pref-swagger/utilities/routes-complex-inline.js');
-const RoutesComplexLabel = require('../pref-swagger/utilities/routes-complex-inline.js');
+const Helper = require('../perf-swagger/utilities/helper.js');
+const RoutesSingle = require('../perf-swagger/utilities/routes-single.js');
+const RoutesStandard = require('../perf-swagger/utilities/routes-standard-test.js');
+const RoutesComplex = require('../perf-swagger/utilities/routes-complex.js');
+const RoutesComplexInline = require('../perf-swagger/utilities/routes-complex-inline.js');
+const RoutesComplexLabel = require('../perf-swagger/utilities/routes-complex-inline.js');
 
 
 
